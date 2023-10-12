@@ -1,5 +1,26 @@
 {
   "files.associations": {
     "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/node_modules": true,
+    ".eslintrc.cjs": true,
+    "tsconfig.json": true,
+    "postcss.config.js": true,
+    "vite.config.ts": true,
+    "pnpm-lock.yaml": true,
+    ".prettierrc": true,
+    "tsconfig.node.json": true,
+    "index.html": true,
+    ".lintstagedrc.json": true,
+    "bun.lockb": true,
+    "jest.config.js": true
   }
 }
